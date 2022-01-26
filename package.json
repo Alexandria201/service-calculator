@@ -1,0 +1,19 @@
+{
+  "name": "service-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "countSalary.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexandria201/service-calculator.git"
+  },
+  "author": "Sasha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexandria201/service-calculator/issues"
+  },
+  "homepage": "https://github.com/Alexandria201/service-calculator#readme"
+}
