@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Salary Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body> 
+    <header class="header">
+        <img class="banner" src="./img/calculator.jpeg" alt="Calculator">
+    <h1 class="calculator__name">
+        Salary Calculator
+    </h1>
+    <p class="calculator__text">
+        If you want to calculate your salary for a specific period, you can use this simple calculator.
+    </p>
+    <p class="calculator__text">
+        Just indicate your NAME, indicate the amount of your salary for the month and the period for which you want to calculate.
+    </p>
+    </header>
+    <form class="form" action="Post">
+    <label class="label__name">
+        Name:
+    <input class="input__line" type="name" id="name">
+    </label>
+    <label class="label__name">
+        Your monthly salary:
+    <input class="input__line" type="salary" id="salary">
+    </label>
+    <label class="label__name">
+        What period?:
+        <input class="input__line" type="period" id="period">
+    </label>
+    <button class="button" type="button" onclick="displayText()">Submit</button> 
+    <div id="result"></div>
+    </form>
+    <hr>
+    <footer class="footer">
+        @Created By Oleksandra Kushniruk
+    </footer>
+    <script src="./countSalary.js"></script>
+    <script src="./render.js"></script>
+</body>
+</html>
