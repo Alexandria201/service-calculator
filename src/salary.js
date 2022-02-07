@@ -1,9 +1,6 @@
 function salary() {
   const money = +document.getElementById('salary').value;
-  if (money <= 0) {
-    return 1;
-  }
-  return money;
+  money <= 0 ? 1 : money
 }
 
 export default salary;

@@ -1,9 +1,6 @@
 function userName() {
   const name = document.getElementById('name').value;
-  if (name.length === 0) {
-    return 'Guest';
-  }
-  return name;
+  name.length === 0 ? 'Guest' : name;
 }
 
 export default userName;
